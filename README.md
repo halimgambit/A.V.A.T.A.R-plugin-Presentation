@@ -2,7 +2,7 @@
 
 This plugin is an add-on for the [A.V.A.T.A.R](https://avatar-home-automation.github.io/docs) framework.
 
-# Avatar se présente
+Avatar se présente
 
 🎯 Usage
 Commandes :
