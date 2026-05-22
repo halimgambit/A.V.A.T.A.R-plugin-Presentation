@@ -7,10 +7,10 @@ Commandes :
 
 Presente toi
 
-Multi-room
+# Multi-room
 The Presentation plugin is fully multi-room.
 
-Multi-language
+# Multi-language
 The Presentation plugin relies solely on the system's available languages.
 
 
