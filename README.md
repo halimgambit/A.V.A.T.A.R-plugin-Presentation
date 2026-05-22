@@ -18,7 +18,7 @@ The Presentation plugin relies solely on the system's available languages.
   <tr>
     <td style="border: none;"><img src="Presentation/assets/images/Presentation.png" alt="Presentation Logo" width="120"></td>
     <td style="border: none;">
-      <h1 style="margin: 0;color: brown;">Blague</h1>
+      <h1 style="margin: 0;color: brown;">Presentation</h1>
       <h3 style="margin: 0;">Avatar introduce himself</h3>
     </td>
   </tr>
