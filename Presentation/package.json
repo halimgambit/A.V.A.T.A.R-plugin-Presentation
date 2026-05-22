@@ -1,0 +1,12 @@
+{
+    "name": "Presentation",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Plugin Presentation for A.V.A.T.A.R",
+    "repository": "https://github.com/YOUR-REPOSITORY",
+    "keywords": [
+        "Presentation"
+    ],
+    "author": "YOUR-NAME",
+    "license": "mit"
+  }

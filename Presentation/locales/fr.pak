@@ -1,0 +1,9 @@
+{
+  "plugin": {
+    "from": "depuis"
+  },
+
+  "speech": {
+    "answerSet": "Je suis Avatar, votre majordome, une intelligence numérique cybernétique, créée par l'ingénieur Stéphane Bascherr, et dédiée à la conception d'une maison intelligente et à l'internet des objets."
+  }
+}
