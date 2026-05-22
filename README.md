@@ -1,2 +1,0 @@
-# Presentation
-Avatar se présente
