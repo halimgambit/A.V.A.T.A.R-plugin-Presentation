@@ -4,6 +4,8 @@ This plugin is an add-on for the [A.V.A.T.A.R](https://avatar-home-automation.gi
 
 Avatar se présente
 
+Avatar est un majordome numérique intelligent conçu pour simplifier la gestion de la maison connectée. Créé par Stéphane Bascherr, il centralise le contrôle des équipements et objets connectés, automatise les tâches du quotidien et offre une assistance personnalisée. Grâce à son interface intuitive et à ses fonctionnalités avancées, Avatar améliore le confort, la sécurité et l’efficacité de l’environnement domestique, tout en s’adaptant aux besoins de chaque utilisateur
+
 🎯 Usage
 Commandes :
 
