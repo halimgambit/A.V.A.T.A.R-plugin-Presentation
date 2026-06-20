@@ -12,7 +12,7 @@ export async function action(data, callback) {
             sePresente: () => sePresente(data.client, Locale)
         };
 
-        info("Presentation:", data.action.command, Locale.get("plugin.from"), data.client);
+        info("Presentation:", data.action.command, "from", data.client);
 
         if (tblActions[data.action.command]) {
             await tblActions[data.action.command]();
