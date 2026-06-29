@@ -1,4 +1,19 @@
-export async function init () {
+export async function init() {
+    const client = "Salon";
+
+    setTimeout(() => {
+        try {
+
+            const message = "Bonjour Monsieur ! Je suis votre majordome AVATAR";
+
+            info(message);
+            Avatar.speak(message, client);
+
+        } catch (err) {
+            info("Erreur lors du message de bienvenue :", err);
+        }
+    }, 5000);
+
     await Avatar.lang.addPluginPak('Presentation');
 }
 
