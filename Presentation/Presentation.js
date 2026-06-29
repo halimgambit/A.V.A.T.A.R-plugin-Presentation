@@ -1,18 +1,20 @@
 export async function init() {
-    const client = "Salon";
-
     setTimeout(() => {
-        try {
+        const clients = Avatar.Socket.getClients();
 
-            const message = "Bonjour Monsieur ! Je suis votre majordome AVATAR";
-
-            info(message);
-            Avatar.speak(message, client);
-
-        } catch (err) {
-            info("Erreur lors du message de bienvenue :", err);
+        if (clients.length === 0) {
+            warn("Aucun client connecté.");
+            return;
         }
-    }, 5000);
+
+        const message = "Bonjour Monsieur ! Je suis votre majordome AVATAR, Les clients sont connectés. Je suis prêt à vous assister";
+
+        info(message);
+
+        for (const client of clients) {
+            Avatar.speak(message, client.name);
+        }
+    }, 4000);
 
     await Avatar.lang.addPluginPak('Presentation');
 }
